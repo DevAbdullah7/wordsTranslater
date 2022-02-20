@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+    <title>Words Translate</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css Files -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/desktop.css">
+    <link rel="stylesheet" href="./assets/css/laptops.css">
+    <link rel="stylesheet" href="./assets/css/taplates.css">
+    <link rel="stylesheet" href="./assets/css/mobiles.css">
+
+    <!-- Favicon -->
+</head>
+<body>
+    <!-- Nav Bar Section -->
+    <div class="nav">
+        <ul>
+            <li id="Mood">
+                <div class="icon">
+                    <div class="lightMood">
+                        <ion-icon name="sunny-outline"></ion-icon>
+                    </div>
+                    <div class="darkMood">
+                        <ion-icon name="moon-outline"></ion-icon>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="active" id="home">
+                    <div class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </div>
+                    <div class="pageName">
+                        <div class="A">
+                            <p>الرئيسية</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" id="contact">
+                    <div class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </div>
+                    <div class="pageName">
+                        <div class="A">
+                            <p>الملف الشخصي</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <div id="indicator" class=""></div>
+        </ul>
+    </div>
+    <!-- End Nav Bar Section -->
+
+    <!-- Website Body -->
+    <section class="container">
+        <!-- Header (logo and search) -->
+        <header>
+            <div class="projectInfo">
+                <div class="logo">
+                    <img class="light" src="./assets/img/logo.png" alt="projectLogo">
+                    <img class="dark" src="./assets/img/logoDark.png" alt="projectLogo">
+                    <p>Words Translate</p>
+                </div>
+                <span class="lyer"></span>
+            </div>
+            <div class="searchContainer">
+                <input type="text" id="input">
+                <span id="searchBtn">ابحث</span>
+                <span id="reloadBtn"><ion-icon name="reload-outline"></ion-icon></span>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Website Content -->
+        <section class="content" dir="rtl">
+            <!-- Words Section -->
+            <div class="wrodsContainer show">
+                <!-- Copy and paste this to add a new word -->
+                <!--
+                    <div class="word">
+                        <p class="E">test1</p>
+                        <p class="A">تجربة</p>
+                    </div> 
+                -->
+                <div class="word">
+                    <p class="E">test1</p>
+                    <p class="A">تجربة</p>
+                </div>
+                <div class="word">
+                    <p class="E">test2</p>
+                    <p class="A">تجربة</p>
+                </div>
+                <div class="word">
+                    <p class="E">test3</p>
+                    <p class="A">تجربة</p>
+                </div>
+                <div class="word">
+                    <p class="E">test4</p>
+                    <p class="A">تجربة</p>
+                </div>
+                <div class="word">
+                    <p class="E">test5</p>
+                    <p class="A">تجربة</p>
+                </div>
+                <div class="word">
+                    <p class="E">test6</p>
+                    <p class="A">تجربة</p>
+                </div>
+                <div class="word">
+                    <p class="E">test7</p>
+                    <p class="A">تجربة</p>
+                </div>
+                <div class="word">
+                    <p class="E">test8</p>
+                    <p class="A">تجربة</p>
+                </div>
+                <div class="word">
+                    <p class="E">test9</p>
+                    <p class="A">تجربة</p>
+                </div>
+                <div class="word">
+                    <p class="E">test10</p>
+                    <p class="A">تجربة</p>
+                </div>
+                <div class="word">
+                    <p class="E">test11</p>
+                    <p class="A">تجربة</p>
+                </div>
+                <div class="word">
+                    <p class="E">test12</p>
+                    <p class="A">تجربة</p>
+                </div>
+                <div class="word">
+                    <p class="E">test13</p>
+                    <p class="A">تجربة</p>
+                </div>
+            </div>
+            <!-- End Words Section -->
+
+            <!-- Contact Section -->
+            <div class="contactContainer">
+                <div class="aboutWebsite">
+                    <h1>عن الموقع :</h1>
+                    <p>test</p>
+                </div>
+                <div class="contact">
+                    <h1>للتواصل معنا :</h1>
+                    <div class="contactMethods">
+                        <!-- copy and paste this to add a new contact method -->
+                        <!-- 
+                            <a href="#">
+                                <span><ion-icon name="logo-whatsapp"></ion-icon></span>
+                                <p>0966500000000</p>
+                            </a> 
+                        -->
+                        <a href="#">
+                            <span><ion-icon name="logo-whatsapp"></ion-icon></span>
+                            <p>0966500000000</p>
+                        </a>
+                        <a href="#">
+                            <span><img class="dark" src="./assets/img/telegram.svg" alt=""></span>
+                            <span><img class="light" src="./assets/img/telegramlight.png" alt=""></span>
+                            <p>test</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Contact Section -->
+        </section>
+        <!-- End Website Content -->
+    </section>
+    <!-- End Website Body -->
+    <!-- iCons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <!-- Js Files -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
